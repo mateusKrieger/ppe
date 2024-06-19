@@ -1,0 +1,99 @@
+#placa{
+    text-align: center;
+  
+}
+
+.fonte{
+    text-align: center;
+    
+}
+
+.perifericos{
+    text-align: center;
+    
+}
+
+
+img{
+    border-radius: 30px;
+    border-style: dashed;
+    border-color: blueviolet;
+}
+
+body {
+    background-image: url('plano-de-fundo-da-area-de-trabalho-moderno-vetor-de-desenho-geometrico-azul_53876-135923.avif');
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-position: center; /* Centraliza a imagem no fundo */
+    color: white;
+}
+para o corpo e fonte */
+body {
+font-family: 'Arial', sans-serif;
+background-color: #7729b8;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+/* Estilizando o nav */
+nav {
+background-color: #7729b8;
+box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+width: 100%;
+max-width: 2000px;
+border-radius: 8px;
+text-align: center;
+color: white;
+}
+
+/* Estilizando a lista dentro do nav */
+nav ul {
+list-style: none;
+display: flex;
+justify-content: space-around;
+padding: 10px 20px;
+color: white;
+}
+
+/* Estilizando os itens da lista */
+nav ul li {
+margin: 0 10px;
+color: white;
+}
+
+/* Estilizando os links */
+nav ul li a {
+color: #fff;
+text-decoration: none;
+padding: 10px 20px;
+display: block;
+border-radius: 4px;
+transition: background 0.3s, color 0.3s;
+}
+
+/* Estilos para o estado de hover dos links */
+nav ul li a
+{
+background-color: #7729b8;
+color: #ff0000;
+}
+
+/* Estilos para o link ativo */
+nav ul li a.active {
+background-color: #04AA6D;
+color: #fff;
+}
+
+/* Responsividade */
+
+nav ul {
+flex-direction: column;
+align-items: center;
+color: white;
+}
+
+a:hover{
+    color: white;
+}
